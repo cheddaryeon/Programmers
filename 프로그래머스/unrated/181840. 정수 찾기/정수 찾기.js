@@ -1,10 +1,14 @@
 function solution(num_list, n) {
-    var answer = 0;
-    if(num_list.find(i => i == n) != undefined){
-        answer=1
-    }
-    return answer;
+    let answer = num_list.find(i => i == n);
+    return answer ? 1 : 0
 }
+// function solution(num_list, n) {
+//     var answer = 0;
+//     if(num_list.find(i => i == n) != undefined){
+//         answer=1
+//     }
+//     return answer;
+// }
 //여부를 생각할 땐 includes로 true/false를 가려내도 좋다
 // function solution(num_list, n) {
 //     var answer = 0;
