@@ -1,6 +1,5 @@
 function solution(num_list, n) {
-    let answer = num_list.find(i => i == n);
-    return answer ? 1 : 0
+    return num_list.find(i => i == n) ? 1 :0
 }
 // function solution(num_list, n) {
 //     var answer = 0;
